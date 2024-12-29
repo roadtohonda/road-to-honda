@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .wallet {
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Support my Honda dream</h1>
+    <div class="wallet">
+        <p><strong>ETH:</strong> 0x9e25Ad70814271De44D83737dE1AC9FFa1d6a69c</p>
+        <button onclick="navigator.clipboard.writeText('0x123...abc')">Copy ETH</button>
+    </div>
+    <div class="wallet">
+        <p><strong>SOL:</strong> CbHHdDb4e4xqKfPQm9HzgoQbmGp6sDwtDVv38Ei5q49G</p>
+        <button onclick="navigator.clipboard.writeText('Solana123...xyz')">Copy SOL</button>
+    </div>
+    <div class="wallet">
+        <p><strong>BTC taproot:</strong> bc1p9ups97eux9ch5lre4mvsnywugj468ecuk4592gzxadlsxa2gxzts9v8jfg</p>
+        <button onclick="navigator.clipboard.writeText('BTC456...mno')">Copy BTC</button>
+    </div>
+</body>
+</html>
